@@ -1,0 +1,33 @@
+label{
+    display: block;
+    text-align: left;
+    margin-bottom: 2vh;
+}
+.inputFields{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding:50px;
+    border-radius: 25px;
+    background-color:rgb(176, 219, 253);
+}
+input{
+    width: 20vw;
+    padding:10px 20px;
+    border-radius: 5px;
+    border: 3px solid #ccc;
+    outline: 0;
+}
+input:focus {
+    border: 3px solid rgb(163, 163, 163);
+  }
+.errMsg{
+    font-size: 12px;
+    text-align: left;
+    height: 20px;
+    color: red;
+    margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+}
